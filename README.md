@@ -14,12 +14,17 @@ Rekomendasi Kebijakan: Memberikan saran kebijakan berdasarkan hasil dan interpre
 
 Tech Stack & Library
 🤝 Kontributor
-Kontributor
-Kelompok 2
+| Contributor                      | GitHub Profile                                   |
+|----------------------------------|--------------------------------------------------|
+| **Rengga Adhiva Fajar Purnama**  | [🌐 Profile](https://github.com/renggaadhivaaa)  |
+| **Abyan Raga Kusuma**            | [🌐 Profile](https://github.com/abyan441)        |
+| **Alwi Sihabudin**               | [🌐 Profile](https://github.com/sihabalwi)       |
+
 
 Ekspor ke Spreadsheet
 ⚙️ Cara Menjalankan
 Clone repositori ini secara lokal:
+
 Bash
 
 git clone [https://github.com/enjangmargha/Kelompok-2_Data-Engineering]
