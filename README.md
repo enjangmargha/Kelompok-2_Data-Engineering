@@ -1,13 +1,14 @@
- ETL: Analisis Hubungan Pendidikan dan Pengangguran terhadap Kemiskinan 🌟
+ 🌟ETL: Analisis Hubungan Pendidikan dan Pengangguran terhadap Kemiskinan 🌟
+
 📝 Deskripsi
 Proyek ini bertujuan untuk melakukan proses ETL (Extract, Transform, Load) untuk menganalisis hubungan antara tingkat pengeluaran pendidikan, tingkat kemiskinan kerja, dan tingkat kemiskinan umum di berbagai negara. Data diekstrak dari sumber publik, dibersihkan, digabungkan, dan dimuat ke database PostgreSQL untuk dianalisis menggunakan model regresi linear. Hasil akhir dari proyek ini adalah sebuah model prediktif beserta rekomendasi kebijakan berbasis data.
 
 🚀 Alur Kerja Proyek
 Proyek ini dibagi menjadi beberapa tahapan utama yang terdokumentasi di dalam notebook:
 
-Ekstraksi Data: Mengambil data dari API World Bank (Pendidikan & Kemiskinan) dan ILO (Kemiskinan Kerja).
-Transformasi Data: Membersihkan, memfilter indikator, mengubah format data (wide-to-long), dan menyeragamkan kolom.
-Integrasi & Pemuatan: Menggabungkan ketiga dataset yang sudah bersih dan memuatnya ke database PostgreSQL di Aiven.
+Ekstraksi Data (Extract): Mengambil data dari API World Bank (Pendidikan & Kemiskinan) dan ILO (Kemiskinan Kerja).
+Transformasi Data (Transformasi): Membersihkan, memfilter indikator, mengubah format data (wide-to-long), dan menyeragamkan kolom.
+Integrasi & Pemuatan (Load): Menggabungkan ketiga dataset yang sudah bersih dan memuatnya ke database PostgreSQL di Aiven.
 Analisis & Machine Learning: Membangun model Regresi Linear Sederhana dan Multivariat untuk menemukan korelasi antar variabel.
 Rekomendasi Kebijakan: Memberikan saran kebijakan berdasarkan hasil dan interpretasi model.
 
@@ -21,7 +22,7 @@ Ekspor ke Spreadsheet
 Clone repositori ini secara lokal:
 Bash
 
-git clone [URL_REPOSITORI_ANDA]
+git clone [https://github.com/enjangmargha/Kelompok-2_Data-Engineering]
 Pasang semua library yang dibutuhkan. Anda dapat menggunakan pip:
 Bash
 
